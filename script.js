@@ -16,7 +16,7 @@ require(["vs/editor/editor.main"], function () {
 function runCode() {
   const code = editor.getValue();
 
-  fetch("hhttps://keemzzzone.pythonanywhere.com/", {
+  fetch("https://keemzzzone.pythonanywhere.com/", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ code: code })

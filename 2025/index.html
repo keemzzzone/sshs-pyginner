@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>PyGinner</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.44.0/min/vs/loader.min.js"></script>
+</head>
+<body>
+  <header>
+    <div>
+      <h1><a href="index.html">PyGinner</a></h1>
+      <nav>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="1-2mid.html">1-2 중간고사 범위</a></li>
+          <li><a href="stats.html">Stats</a></li>
+          <li><a href="auth/login">Log In</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div id="editor"></div>
+    <button onclick="runCode()">실행</button>
+    <h2>실행 결과</h2>
+    <pre id="output"></pre>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
